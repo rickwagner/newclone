@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/greenbird/!svn/ver/2/trunk/sites/all/modules/calendar/theme
+END
+calendar-main.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/greenbird/!svn/ver/2/trunk/sites/all/modules/calendar/theme/calendar-main.tpl.php
+END
+calendar-month.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/greenbird/!svn/ver/2/trunk/sites/all/modules/calendar/theme/calendar-month.tpl.php
+END
+calendar-datebox.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/greenbird/!svn/ver/2/trunk/sites/all/modules/calendar/theme/calendar-datebox.tpl.php
+END
+calendar-week-multiple-node.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/greenbird/!svn/ver/2/trunk/sites/all/modules/calendar/theme/calendar-week-multiple-node.tpl.php
+END
+calendar-month-node.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/greenbird/!svn/ver/2/trunk/sites/all/modules/calendar/theme/calendar-month-node.tpl.php
+END
+calendar-week.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/greenbird/!svn/ver/2/trunk/sites/all/modules/calendar/theme/calendar-week.tpl.php
+END
+calendar-mini.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/greenbird/!svn/ver/2/trunk/sites/all/modules/calendar/theme/calendar-mini.tpl.php
+END
+calendar-day.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/greenbird/!svn/ver/2/trunk/sites/all/modules/calendar/theme/calendar-day.tpl.php
+END
+calendar-week-node.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/greenbird/!svn/ver/2/trunk/sites/all/modules/calendar/theme/calendar-week-node.tpl.php
+END
+theme.inc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/greenbird/!svn/ver/2/trunk/sites/all/modules/calendar/theme/theme.inc
+END
+calendar-day-node.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/greenbird/!svn/ver/2/trunk/sites/all/modules/calendar/theme/calendar-day-node.tpl.php
+END
+calendar-year.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/greenbird/!svn/ver/2/trunk/sites/all/modules/calendar/theme/calendar-year.tpl.php
+END
+calendar-month-multiple-node.tpl.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/greenbird/!svn/ver/2/trunk/sites/all/modules/calendar/theme/calendar-month-multiple-node.tpl.php
+END

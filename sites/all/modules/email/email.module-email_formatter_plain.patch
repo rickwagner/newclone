@@ -1,0 +1,38 @@
+--- email.module	2009-06-13 05:00:00.000000000 +0000
++++ email.module-email_formatter_plain	2010-03-27 03:09:52.000000000 +0000
+@@ -20,6 +20,9 @@
+     'email_formatter_contact' => array(
+       'arguments' => array('element' => NULL),
+     ),
++    'email_formatter_plain' => array(
++      'arguments' => array('element' => NULL),
++    ),
+   );
+ }
+ 
+@@ -99,6 +102,11 @@
+       'field types' => array('email'),
+       'multiple values' => CONTENT_HANDLE_CORE,
+     ),
++    'plain' => array(
++      'label' => t('Email plain text'),
++      'field types' => array('email'),
++      'multiple values' => CONTENT_HANDLE_CORE,
++    ),
+   );
+   if (module_exists('spamspan')) {
+     $formats += array(
+@@ -141,6 +149,13 @@
+   return !empty($element['#item']['safe']) ? l(t('Email contact form'), 'email/'. $element['#node']->nid .'/'. $element['#field_name']) : '';
+ }
+ 
++/**
++ * Theme function for 'plain' email field formatter.
++ */
++function theme_email_formatter_plain($element) {
++  return !empty($element['#item']['safe']) ? $element['#item']['safe'] : '';
++}
++
+ 
+ /**
+  * Implementation of hook_widget_info().

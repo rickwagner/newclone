@@ -1,0 +1,52 @@
+8
+
+dir
+3
+http://transparatech.svn.beanstalkapp.com/greenbird/trunk/sites/all/modules/calendar/translations
+http://transparatech.svn.beanstalkapp.com/greenbird
+
+
+
+2010-01-13T05:36:42.852049Z
+2
+karl
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7724a8bc-bea4-452c-9d0c-d99404731a50
+
+calendar.pot
+file
+
+
+
+
+2010-01-13T07:27:22.000000Z
+0a4862c4436e16f1420cd381e4ac3513
+2010-01-13T05:36:42.852049Z
+2
+karl
+
+calendar.sv.po
+file
+
+
+
+
+2010-01-13T07:27:22.000000Z
+598f4bb904858edfcc84a1a25b698bfc
+2010-01-13T05:36:42.852049Z
+2
+karl
+

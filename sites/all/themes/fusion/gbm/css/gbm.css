@@ -1,0 +1,499 @@
+/* $Id: fusion-starter-style.css,v 1.1.2.7 2010/07/04 01:51:31 sociotech Exp $ */
+html {background:#efefef;}
+body {
+background:#fff;
+color:#666;
+font-size: 75%;/*fusion_starter.info: settings[base-font-size] = font-size-12*/}
+a,
+a:link,
+a:visited {color:#677c81;}
+a:hover,
+a:focus,
+a:active {color:#506266;}
+li a.active,
+.active-trail a {color:#333;}
+
+/* SITE INFO */
+.header-site-info span {display: block;}
+#logo {float:left; margin:0 10px 0 0;}
+#site-name-wrapper {margin:0;}
+#site-name {font-size: 300%;line-height: 150%;}
+#site-name a:link,
+#site-name a:visited,
+#site-name a:hover,
+#site-name a:active {color:#FFFFFF;
+font-weight:bold;
+text-shadow:1px 1px 0 #666;}
+#slogan {font-style: italic;}
+
+/* PAGE */
+.page {}
+.page-inner {border: 0;margin-bottom: 0;padding: 0;}
+
+/*---------*/
+/* REGIONS */
+/*---------*/
+/* HEADRER REGIONS */
+.header-group-wrapper {background:#ccc;}
+.header-group {}
+.header-top-wrapper {background:#666; color:#fff;}
+.header-top {padding:4px 0;}
+.header-top .block {margin:0;}
+.header-top a {color:#fff;}
+
+/* PRIMARY MENU */
+.primary-menu-wrapper {background:#677c81; -webkit-box-shadow: 0px 0px 12px #506266 inset; -moz-box-shadow: 0px 0px 12px #506266 inset; box-shadow: 0px 0px 12px #506266 inset;}
+/* styles for Superfish primary menu */
+.primary-menu-inner ul.sf-menu {margin:0;padding:0;}
+/* Link style for top level menu items, add padding here */
+.primary-menu-inner ul.sf-menu a,
+.primary-menu-inner ul.sf-menu a:visited {color:#eee;font-size:1.125em;padding:.45em 1em;text-shadow:1px 1px 1px #506266;}
+.primary-menu-inner ul.sf-menu a:hover,
+.primary-menu-inner ul.sf-menu a:active,
+.primary-menu-inner ul.sf-menu a:focus {background:#506266;color:#fff;text-shadow:0 1px 1px #677c81;}
+.primary-menu-inner ul.sf-menu li { list-style-image: none; list-style-type: none;}
+.primary-menu-inner ul.sf-menu li.sfHover {background:#506266;}
+.primary-menu-inner ul.sf-menu ul li {border-top:1px solid #506266;}
+.primary-menu-inner ul.sf-menu li.last {}
+/* Style for container of dropdown, add background or border */
+.primary-menu-inner ul.sf-menu ul {background-color: #5c7074; width:200px;}
+/* Style for individual dropdown menu items, add border-bottom for separators */
+.primary-menu-inner ul.sf-menu li li {}
+.primary-menu-inner ul.sf-menu ul.menu a {font-size:1em;}
+.primary-menu-inner ul.sf-menu li li.last {}
+.primary-menu-inner ul.sf-menu li li.last a {}
+.primary-menu-inner ul.sf-menu li li li {}
+/* Style for hover of dropdown menu items (add background-color here) */
+.primary-menu-inner ul.sf-menu li ul li:hover,
+.primary-menu-inner ul.sf-menu li ul li.sfHover {}
+
+/* SECONDARY MENU */
+.secondary-menu {}
+.secondary-menu-inner ul.links {}
+.secondary-menu-inner ul.links li {}
+.secondary-menu-inner ul.links li.last {}
+.secondary-menu-inner ul.links li a:link,
+.secondary-menu-inner ul.links li a:visited {padding: 3px;}
+.secondary-menu-inner ul.links li a:hover,
+.secondary-menu-inner ul.links li a:focus,
+.secondary-menu-inner ul.links li a.active {}
+
+/* HEADER - SEARCH */
+.search-box {}
+.search-box-inner {}
+.search-box-inner form#search-theme-form {}
+.search-box-inner input#edit-search-theme-form-header {}
+
+/* PREFACE */
+.preface-top-wrapper {background:#efefef;}
+.preface-top {}
+.preface-top-inner {}
+.preface-top-inner .block {margin:0;}
+.preface-bottom {}
+.preface-bottom-inner {}
+
+/* MAIN */
+.main-wrapper {}
+.main-inner {padding:20px 0;}
+.main-inner .block {margin:0;}
+
+/* SIDEBAR FIRST */
+.sidebar-first {}
+.main-inner .sidebar-first .block {margin:0 0 20px 0;}
+
+/* SIDEBAR LAST */
+.sidebar-last {}
+
+/* MENUS */
+ul.menu li,
+.item-list ul li {color:#666; list-style-image: none; list-style-type: disc;}
+.content-inner ul,
+.content-inner ol {list-style-position:inside; overflow:auto; padding: 0 0 0 20px;}
+.content-inner .item-list ul,
+.content-inner .item-list ol {list-style-position:outside; overflow:visible; padding: 0;}
+
+/* CONTENT REGIONS */
+.content-top {}
+.content {}
+.content-inner {}
+.content-bottom {}
+.node-bottom {}
+
+/* POSTSCRIPT TOP */
+.postscript-top {}
+.postscript-top-inner {}
+/* POSTSCRIPT BOTTOM */
+.postscript-bottom-wrapper {background:#ccc;padding:20px 0;}
+.postscript-bottom {}
+.postscript-bottom-inner {}
+.postscript-bottom-inner .block {margin:0;}
+.postscript-bottom-inner h2.title {color:#666;}
+.postscript-bottom-inner a {color:#506266;}
+.postscript-bottom-inner .item-list ul {margin:0;padding:0;}
+.postscript-bottom-inner .item-list ul li { list-style-image: none; list-style-type: none;}
+.postscript-bottom-inner .view-footer {padding:10px 0 0 0;}
+
+/* FOOTER */
+.footer-wrapper {background:#efefef;}
+.footer {text-align:center;}
+.footer p {margin:0;padding:0;text-align:center;}
+.footer-inner {}
+.footer div.item-list {display:table;margin:0 auto;}
+.footer .item-list ul {margin:0;padding:0;display:block;}
+.footer .item-list ul li {border-right:1px solid #000;float:left;line-height:90%; list-style-image: none; list-style-type: none;}
+.footer .item-list ul li.views-row-last {border:none;}
+.footer .item-list ul li a {padding:0 4px;}
+.footer .view-footer {clear:both;}
+.footer-message-wrapper {}
+.footer-message {font-size: 90%;}
+.footer-message-inner {}
+.footer-message-text {}
+
+/* PAGE TITLES */
+h1.title {color:#506266;}
+
+/* DEFAULT NODE STYLES */
+.node-unpublished {background-color: #fff4f4;}
+.preview .node {background-color: #ffffea;}
+h2.title {color:#677c81;}
+h2.title a:link,
+h2.title a:visited {color:#677c81;}
+h2.title a:hover,
+h2.title a:focus,
+h2.title a:active {color:#506266;}
+/* Separators and padding for node teasers */
+.teaser {}
+/* Author/date info */
+.meta {}
+.submitted {}
+.comment .picture img,
+.submitted .picture img {float:left; height:16px; margin:0px 2px 0 0; width:auto;}
+.comment .picture {float:none;margin:0;}
+
+/* Links for nodes (taxonomy, commenting, read more, etc) */
+.node div.terms {border-top:1px solid #efefef;padding:2px 6px;}
+.node div.links {background: #efefef; padding:2px 6px;}
+.node ul.links,
+.node ul.links img {margin:0; padding:0;}
+.node ul.links li {margin:0 10px 0 0;}
+.node ul.links a {}
+.node. ul.link a:hover {}
+/* Only more/read more links */
+div.node .read-more a,
+div.node .more-link a {}
+
+/* photo gallery node */
+
+.node-type-photo-gallery div.group-photos {clear:both; margin:0;padding:0;}
+.node-type-photo-gallery div.group-photos .content {margin:0;padding:0;}
+.node-type-photo-gallery ul.gallery {margin:0;padding:0;}
+.node-type-photo-gallery ul.gallery li {display: inline; margin:0 10px 10px 0;}
+
+
+/* DRUPAL MESSAGES */
+div.content-messages div.messages,
+div.content-help div.help,
+div.dev-timer, div.dev-memory-usage {border-style: solid; border-width: 2px;font-style:italic;margin: 0 auto 10px auto;padding:10px;border-radius:5px;-moz-border-radius: 5px;-webkit-border-radius:5px;}
+div.content-messages-inner div.status {background:#EAF8E4;border-color:#8DC478;color:#3E642F;}
+div.content-messages-inner div.warning {background:#FFFFDD;border-color:#EED300;color:#745500;}
+div.content-messages-inner div.error {background:#FFF2F2;border-color:#CC0000;color:#B20000;}
+div.content-help-inner div.help {background:#E4EEF8;border-color:#57718A;color:#292929;}
+div.dev-timer, div.dev-memory-usage {background:#ccc;border-color: #999;color:#333;width:940px;}
+/* Error that appears when a required form field is not filled out */
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {border: 1px solid #aa1144;}
+/* "New" text and required form field asterisk (default = red) */
+.marker,
+.news,
+.form-required {color: #aa1144;}
+
+/* DEFAULT BLOCK TITLE STYLES */
+h2.block-title {color:#506266;}
+
+/* IMAGES */
+.post-image .image {float:left; margin:0 10px 10px 0;}
+
+/* BREADCRUMBS */
+.breadcrumbs {}
+.breadcrumbs a:link,
+.breadcrumbs a:visited {}
+
+/* TAB MENUS */
+#content-tabs {float: left;margin: 20px 0;padding: 0;}
+#content-tabs ul.primary,
+#content-tabs ul.secondary {border-bottom:1px solid #506266;clear: both;float: left;margin: 0;padding: 0;}
+#content-tabs ul.secondary {border:none;margin-top: 10px;text-transform: lowercase;}
+#content-tabs ul.primary li,
+#content-tabs ul.secondary li {border-style: none;display: inline;float: left;list-style: none;margin: 0;padding: 0;}
+#content-tabs ul.primary li a:link,
+#content-tabs ul.primary li a:visited,
+#content-tabs ul.secondary li a:link,
+#content-tabs ul.secondary li a:visited {background:none;border: none;color:#677c81; float: left; margin: 0; padding: 2px 4px; text-decoration: none; white-space: nowrap;}
+#content-tabs ul.secondary li a:link,
+#content-tabs ul.secondary li a:visited {border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;font-weight:normal;font-size:90%;}
+#content-tabs ul.primary li.active a:link,
+#content-tabs ul.primary li.active a:visited,
+#content-tabs ul.primary li a.active:link,
+#content-tabs ul.primary li a.active:visited {background:#506266;color:#fff;}
+#content-tabs ul.secondary li a.active:link,
+#content-tabs ul.secondary li a.active:visited {background:#677C81;color:#fff;}
+#content-tabs ul.primary li a:hover,
+#content-tabs ul.primary li a:focus,
+#content-tabs ul.secondary li a:hover,
+#content-tabs ul.secondary li a:focus {background:none;color:#506266;}
+
+/* PAGER */
+ul.pager {}
+ul.pager li {}
+ul.pager a,
+ul.pager li.pager-current {background-color:#efefef;border:none;color:#677C81;}
+ul.pager li.pager-current {background-color: #ccc;color:#506266;}
+ul.pager a:hover,
+ul.pager a:active,
+ul.pager a:focus {background-color: #ccc;border:none;color:#506266;}
+
+/* FORMS */
+/* Typography and backgrounds for all form buttons */
+form input.form-submit {background:#677c81;border:none;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;color:#eee;margin: 2px 2px 10px 2px;padding: 4px;}
+/* Hover style for form buttons */
+form input.form-submit:hover,
+form input.form-submit.hover,
+form input.form-submit:focus {background:#506266;color:#fff;}
+/* Typography, background, borders, padding for form fields */
+.form-item input,
+.form-item select,
+.form-item textarea {border:1px solid #506266;font-family: Arial, arial; font-size:100%;padding:4px;}
+/* Remove backgrounds and border on radios and checkboxes */
+.form-item .form-radio,
+.form-item .form-checkbox {background: none;border: none !important;}
+
+
+
+
+legend{margin:0;  display:block; padding:0;width:100%;}
+fieldset{border: none;}
+fieldset div{padding:0 0 10px 0;width:100%;}
+fieldset fieldset{background:#eee;}
+html.js fieldset.collapsible
+{
+  margin:0 0 10px 0;
+  padding:10px 10px 0px 10px;
+   width:97.5%; /*width:95%; ie7 screws with the with in*/
+  background:#eee;display:block; position: relative; top:0px; left:0;
+  -moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;
+}
+
+
+fieldset
+{
+  margin:0 0 10px 0;
+  padding:20px 10px 0px 10px;
+   width:98%; /*width:95%; ie7 screws with the with in*/
+  background:#eee;display:block; position: relative; top:0px; left:0;
+  -moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;
+}
+
+fieldset span.wrapper-wrapper {padding:0;display:block;}
+
+fieldset .form-item {padding:0;margin:4px 0 4px 0;}
+
+
+html.js fieldset.collapsible legend span {width:98%;}
+html.js fieldset.collapsible legend a span {
+  height:20px;
+  color:#fff;
+  display:block;
+  position: absolute;
+  left:0;
+  top:0px\9;/*ie7 & ie8 8 ugly hack thanx to FF FF goes nuts of theres a top:0; so to correct that we have to add a selector for ie8*/
+  font-weight:normal; text-transform: uppercase;
+  font-size:10px; line-height:20px;
+  background-color:#999;
+}
+
+
+html.js fieldset.collapsible fieldset fieldset {width:97%;}
+
+html.js fieldset.semantic-cck fieldset.semantic-cck-labels fieldset {width:97%;padding-top:40px;}
+html.js fieldset.semantic-cck fieldset.semantic-cck-multiple-values fieldset {width:97%;}
+html.js fieldset.semantic-cck fieldset.semantic-cck-multiple-values .collapsed {padding-top:0;}
+html.js fieldset.semantic-cck fieldset.semantic-cck-multiple-values .collapsible {}
+fieldset.semantic-cck-single-values-settings {}
+fieldset.semantic-cck-multiple-values-all {padding-top:40px;}
+html.js fieldset.collapsible legend span {
+  height:20px;
+  color:#fff;
+  display:block;
+  position: absolute;
+  left:-10px;
+  top:0px\9;/*ie7 & ie8 8 ugly hack thanx to FF FF goes nuts of theres a top:0; so to correct that we have to add a selector for ie8*/
+  font-weight:normal; text-transform: uppercase;
+  font-size:10px; line-height:20px;
+  background-color:#999;
+  width:97.25%;
+}
+
+html.js fieldset.collapsible legend a {padding:0; text-decoration: none;}
+
+html.js fieldset legend span{background:#997f4a url(../images/navigation-090-frame.png) no-repeat 6px 50%; padding:5px 0 5px 19px;color:#fff;display:block;font-size:10px; left:-10px; position:relative; text-transform:uppercase;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px; width:100%;text-indent:10px;}
+
+html.js fieldset.collapsible legend a span{background:#997f4a url(../images/navigation-090-frame.png) no-repeat 6px 50%; left:-10px; position:relative; padding:4px 0 4px 19px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px; width:100%;text-indent:10px;}
+html.js fieldset.collapsed legend a span {display:block; background:#e6be6e url(../images/navigation-270.png) no-repeat 6px 50%; cursor: pointer; padding:4px 0 4px 19px;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-indent:10px;}
+
+html.js fieldset.collapsed legend span{padding:0 0 0 10px;}
+html.js fieldset.collapsed{border:none;padding:0px 10px; height:auto; margin:0 0 10px 0;}
+html.js fieldset.collapsed legend a span:hover,
+html.js fieldset.collapsible legend a span:hover
+{
+  color:#fff;
+  background-color:#997f4a;
+}
+html.js fieldset.collapsible fieldset.collapsed {padding:0 10px;}
+
+html.js fieldset.collapsible .fieldset-wrapper {overflow: visible; margin:0 0 10px 0;padding:0;}
+html.js input.form-autocomplete{background-position: 100% 7px;}
+html.js input.throbbing{background-position:100% -18px;}
+
+html.js fieldset fieldset.collapsible {margin:0 0 10px 0;}
+html.js fieldset fieldset.collapsible,
+html.js fieldset fieldset fieldset fieldset.collapsible {background:#fff;}
+html.js fieldset fieldset fieldset.collapsible,
+html.js fieldset fieldset fieldset fieldset fieldset.collapsible {background:#eee;}
+.vertical-tabs,
+.vertical-tabs-panes fieldset{background:#fff;}
+
+/* TABLES */
+table {}
+/* Body of tables */
+tbody {border-top: 1px solid #ccc;}
+/* Header of tables */
+thead th,
+th {border-bottom: 3px solid #ccc;}
+tbody th {border-bottom: 1px solid #ccc;}
+/* Alternating row background styles */
+tr.even,
+tr.even td {background-color: #eee;border-bottom: 1px solid #ccc;}
+tr.odd,
+tr.odd td {background-color: #fff;border-bottom: 1px solid #ccc;}
+td.active {}
+tr.drag td,
+tr.drag-previous td {color: #000;}
+
+/* MAINTENANCE PAGE */
+/* Maintenance page tpl file in Fusion Core has simplified layout, but you can also add specific styles, such as a background, just for your offline page */
+.in-maintenance  {}
+
+/* MISC */
+#content-display-overview select {width:100px;}
+.block, .inner, .grid, .nested {overflow: visible;}
+
+/*---------------*/
+/* MODULE STYLES */
+/*---------------*/
+/* BOOK */
+.book-navigation .menu {border-top: 1px solid #ccc;}
+.book-navigation .page-links {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;}
+
+/* COMMENTS */
+.page-comment .comment {margin:0 0 10px 0; padding:0;}
+#comments div.comment {margin:0 0 10px 0; padding:10px 14px;}
+div.comment h3.title {}
+div.comment div.links ul,
+div.comment ul.links {clear:both; margin:0;padding:0;}
+div.comment div.links a,
+div.comment ul.links {margin:0;}
+div.comment ul.links a {}
+.comments div.odd {background-color: #efefef;}
+.comments div.even {background-color: #dedede;}
+.comments div.comment-by-author {background-color: #EAF8E4;}
+.comments div.comment-mine {background-color:#FFFFDD;}
+.signature {border-top: 1px solid #d6ddb9;}
+.comment-wrapper .picture img {}
+.comments .box {margin:10px 0 0 0;}
+
+
+/* FORUM */
+#forum .description {}
+.forum-topic-navigation {border-top: 1px solid #888;border-bottom: 1px solid #888;}
+
+/* POLL */
+div.poll div.bar {background-color: #ddd;}
+div.poll div.bar div.foreground {background-color: #999;}
+
+/* PROFILES */
+.profile .picture {float: none;}
+/* Styles for sub-headings on user profiles */
+.profile dt {background-color: #ccc;}
+
+/* UBERCART CATALOG */
+/* Horizontal list of subcategories in catalog */
+ul.uc-categories {}
+.uc-categories li a {font-weight: bold;padding: 0 5px 0 3px;}
+/* Product and category names */
+.catalog-grid-title a:link,
+.catalog-grid-title a:visited,
+.category a:link,
+.category a:visited {}
+.catalog-grid-title a:hover,
+.catalog-grid-title a:focus,
+.category a:hover,
+.category a:focus {}
+/* Sell price in Ubercart catalog */
+.category-grid-products .catalog-grid-sell-price {}
+
+/* UBERCART - ADD TO CART */
+/* Add to cart buttons */
+input.node-add-to-cart,
+input.list-add-to-cart {}
+/* Hover and focus styles, with .hover class added for IE6 support */
+input.node-add-to-cart:hover,
+input.node-add-to-cart.hover,
+input.node-add-to-cart:focus,
+input.list-add-to-cart:hover,
+input.list-add-to-cart.hover,
+input.list-add-to-cart:focus {}
+
+/* UBERCART PRODUCT NOTES */
+#field-group {}
+#price-group {}
+/* Product images */
+.product-image a img {}
+.product-image a:hover img,
+.product-image a:focus img {}
+/* Display price on full product nodes */
+.full-node .product-group .uc-price-display {}
+/* Product attributes on full nodes */
+.full-node .product-group .attributes {}
+
+/* UBERCART GENERAL/CHECKOUT */
+/* For optional "Powered by Ubercart" footer message */
+#store-footer {}
+#store-footer a:link,
+#store-footer a:visited {}
+/* View cart/Checkout links in Ubercart cart block */
+.cart-block-summary-links ul.links li a {}
+.cart-block-summary-links ul.links li.cart-block-checkout a:link,
+.cart-block-summary-links ul.links li.cart-block-checkout a:visited {}
+/* Key checkout process buttons: Checkout, Continue, and Submit Order */
+#uc-cart-view-form #edit-checkout,
+#uc-cart-checkout-form #edit-continue,
+#uc-cart-checkout-review-form #edit-submit {}
+/* Table on final order review page */
+.order-review-table {}
+#cart-form-products table th {border-bottom: 3px solid #dec2c3;}
+
+/* VIEWS */
+#block-views-social_links-block_1 .views-field-edit-node {padding:10px 0 0 0;}
+
+
+/* WEBFORM */
+body.node-type-webform .webform-client-form .form-text,
+body.node-type-webform .webform-client-form .form-textarea {width:400px;}
+
+/* SKINR */
+.gbm-style .inner {border-width: 1px; border-style: solid;padding:10px;-moz-border-radius:10px;}
+.gbm-style-blue a {color:blue;}
+.gbm-style-blue .inner {border-color:blue;}
+.gbm-style-green a {color:green;}
+.gbm-style-green .inner {border-color:green;}
